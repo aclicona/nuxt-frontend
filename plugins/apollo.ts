@@ -1,5 +1,4 @@
 import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client/core'
-import { setContext } from '@apollo/client/link/context'
 import { onError } from '@apollo/client/link/error'
 import { defineNuxtPlugin } from '#app'
 
